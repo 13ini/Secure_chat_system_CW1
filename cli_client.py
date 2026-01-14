@@ -1,3 +1,5 @@
+#cli client
+
 import socket
 import threading
 from encryption import encrypt_message, decrypt_message
@@ -67,4 +69,5 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
 
